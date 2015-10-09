@@ -9,6 +9,6 @@ module UsersHelper
             link_to "Accept", accept_friendship_path(current_user.friendship_relation(user)), method: :put
         when "not_friends"
             link_to "Add as Friend", friendships_path(user_id: user.id), method: :post
-        end 
+        end
     end
 end

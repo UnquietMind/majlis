@@ -15,6 +15,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'gravatarify'
 gem 'public_activity'
+gem 'auto_html'
 
 group :development, :test do
   gem 'byebug'
